@@ -1,0 +1,6 @@
+# To start set the following env
+
+RABBITMQ_VM_MEMORY_HIGH_WATERMARK=0.9
+RABBITMQ_DEFAULT_VHOST=/
+RABBITMQ_USER=username
+RABBITMQ_PASSWORD=password
