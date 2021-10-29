@@ -1,4 +1,4 @@
-FROM rabbitmq:3-management-alpine
+FROM rabbitmq:3.9-management
 
 COPY enabled_plugins /etc/rabbitmq/enabled_plugins
 COPY start.sh start.sh
