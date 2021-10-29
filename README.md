@@ -5,6 +5,7 @@ RABBITMQ_VM_MEMORY_HIGH_WATERMARK=0.9
 RABBITMQ_DEFAULT_VHOST=/
 ```
 ## 管理员
+端口: 15672/http
 ```bash
 # web管理的用户及密码
 RABBITMQ_USER=username
@@ -12,6 +13,7 @@ RABBITMQ_PASSWORD=password
 ```
 
 ## MQTT协议的插件
+端口: 1883/mqtt
 ```bash
 # MQTT插件相关的授权 
 RABBITMQ_MQTT_USER=username
